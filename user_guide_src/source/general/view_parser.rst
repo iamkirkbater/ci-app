@@ -1,6 +1,0 @@
-###########
-View Parser
-###########
-
-Coming soon :)
-
