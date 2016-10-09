@@ -43,7 +43,7 @@ else
  * Include the path if the folder is not in the same directory
  * as this file.
  */
-$system_directory = '../system';
+$system_directory = '../vendor/iamkirkbater/ci-core/src';
 
 /*
  *---------------------------------------------------------------

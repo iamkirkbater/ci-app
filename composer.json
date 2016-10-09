@@ -15,19 +15,18 @@
 			"CodeIgniter\\": "system/"
 		}
 	},
+        "repositories": [
+            {
+                "type": "vcs",
+                "url": "https://github.com/iamkirkbater/ci-core"
+            }
+         ],
 	"require": {
-		"php": ">=7.0",
-		"zendframework/zend-escaper": "^2.5"
-	},
-	"require-dev": {
-		"phpunit/phpunit": "5.3.*",
-		"phpdocumentor/phpdocumentor": "^2.9",
-		"mikey179/vfsStream": "1.6.*"
+		"iamkirkbater/ci-core": ">=4.0"
 	},
 	"scripts": {
 		"post-update-cmd": [
-			"composer dump-autoload",
-			"CodeIgniter\\ComposerScripts::postUpdate"
+			"composer dump-autoload"
 		]
 	}
 }
